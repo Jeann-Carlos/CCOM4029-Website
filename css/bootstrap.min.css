@@ -43,6 +43,7 @@
 }
 
 html {
+    scroll-behavior: smooth;
     font-family: sans-serif;
     line-height: 1.15;
     -webkit-text-size-adjust: 100%;
@@ -646,6 +647,7 @@ pre code {
 .col-lg-10,
 .col-lg-11,
 .col-lg-12,
+.col-lg-30,
 .col-lg-2,
 .col-lg-3,
 .col-lg-4,
@@ -728,6 +730,13 @@ pre code {
     -ms-flex: 0 0 16.666667%;
     flex: 0 0 16.666667%;
     max-width: 16.666667%
+}
+
+.col-lg-30 {
+    -ms-flex: 0 0 100%;
+    flex: 0 0 100%;
+    max-width: 100%;
+    padding-left: 50px;
 }
 
 .col-3 {
@@ -8108,6 +8117,7 @@ button.bg-dark:hover {
 
 .mb-1,
 .my-1 {
+    color: var(--dark)!important;
     margin-bottom: .25rem!important
 }
 
